@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import Temp from '../assets/img/temp.jpeg';
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import 'animate.css';
 
 import TrackVisibility from 'react-on-screen';
 
