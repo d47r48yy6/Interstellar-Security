@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
+
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
@@ -56,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">InterSteller-Security</span>
-                <h1>{`PENTEST of`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web-app", "mobile", "API" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`PENTEST of`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "Web-app", "mobile", "API" ]'><span className="wrap">{text}</span></span></h1>
                   <p>InterSteller-security offers expert mobile app, web app, and API penetration testing. Our certified hackers identify vulnerabilities, enhancing your digital security with comprehensive solutions and expert recommendations. Stay protected against cyber threats.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}

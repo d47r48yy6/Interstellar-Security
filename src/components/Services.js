@@ -9,33 +9,33 @@ export const Services = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "API PENTEST",
+      description: "InterStellar-Security",
       imgUrl: Temp,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "VAPT Services",
+      description: "InterStellar-Security",
       imgUrl: Temp,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Cloud Security PENTEST",
+      description: "InterStellar-Security",
       imgUrl: Temp,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Mobile-App PENTEST ",
+      description: "InterStellar-Security",
       imgUrl: Temp,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Web-App PENTEST",
+      description: "InterStellar-Security",
       imgUrl: Temp,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Tools",
+      description: "InterStellar-Security",
       imgUrl: Temp,
     },
   ];
